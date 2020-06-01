@@ -8,5 +8,6 @@
 # 명령어
 conn / as sysdba -> 관리자 계정 접속 (1)
 conn system / oracle -> 관리자 계정 접속(2)
+alter user hr account unlock identified by hr -> 계정을 풀고, 비밀번호를 hr로 설정
 
-alter user hr account unlock identified by hr;
+-> 작업이 안 될때 시작 창에 start base 클릭
