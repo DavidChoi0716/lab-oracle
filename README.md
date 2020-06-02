@@ -19,9 +19,17 @@ alter user hr account unlock identified by hr -> 계정을 풀고, 비밀번호�
 -> select/insert/update/delete/create
 
 NOSQL은 조금 다르게!
-00
+
+ -> <data type>
 Varchar2
 number
 date
 clob -> 최대 4GB (문자열 데이터 타입을 저장 가능)
 blob -> 최대 4GB (음성, 이미지 파일 등)
+ 
+같다: =
+다르다: != , <>, ^=
+논리 연산자: and or not
+
+between A and B / IN 연산자 -> 속도가 느려서 잘 사용하지 않음 
+sql의 인덱스도 사용가능 -> 인덱스를 사용해서 속도를 개선 
